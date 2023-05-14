@@ -1,19 +1,11 @@
-import { error } from "@sveltejs/kit"
 import type { RequestHandler } from "./$types"
 import langs from "./langs.json"
 
-export const GET: RequestHandler = ({ url }) => {
-  const code = url.searchParams.get("code")
-
-  if (!code) {
-    throw error(400, "Language code is required")
-  }
+export const GET: RequestHandler = ({ url, request }) => {
+  const code =
+    url.searchParams.get("code") ?? request.headers.get("accept-language")?.slice(0, 2) ?? "en"
 
   const lang = langs[code as keyof typeof langs]
-
-  if (!lang) {
-    throw error(404, "Language not found")
-  }
 
   return new Response(lang.greeting)
 }
