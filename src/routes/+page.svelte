@@ -8,10 +8,9 @@ const greeting = `${data.greeting} 👋`;
 
 <svelte:head>
   <title>{greeting}</title>
-  <meta name="og:title" content={greeting} />
-  <meta name="twitter:title" content={greeting} />
-  <!-- <meta name="og:image" content={data.image} /> -->
-  <!-- <meta name="twitter:image" content={data.image} /> -->
+  <meta property="og:title" content={greeting} />
+  <meta property="og:description" content={data.language} />
+  <meta property="og:image" content={"https://sveiki.vercel.app/api/og?text=" + greeting} />
 </svelte:head>
 
 <main>
