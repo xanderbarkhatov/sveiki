@@ -3,10 +3,6 @@ import { initWasm, Resvg } from "@resvg/resvg-wasm";
 import { error } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
 
-await initWasm(
-  await fetch("https://unpkg.com/@resvg/resvg-wasm/index_bg.wasm").then((r) => r.arrayBuffer())
-);
-
 export const GET: RequestHandler = async ({ url }) => {
   const text = url.searchParams.get("text");
 
@@ -14,7 +10,11 @@ export const GET: RequestHandler = async ({ url }) => {
     throw error(400, "Missing text query parameter");
   }
 
-  const fontFile = await fetch("https://og-playground.vercel.app/inter-latin-ext-700-normal.woff");
+  const [fontFile, wasm] = await Promise.all([
+    fetch("https://og-playground.vercel.app/inter-latin-ext-700-normal.woff"),
+    fetch("https://unpkg.com/@resvg/resvg-wasm/index_bg.wasm").then((r) => r.arrayBuffer()),
+  ]);
+
   const fontData = await fontFile.arrayBuffer();
 
   const svg = await satori(
@@ -47,6 +47,8 @@ export const GET: RequestHandler = async ({ url }) => {
       ],
     }
   );
+
+  await initWasm(wasm);
 
   const resvg = new Resvg(svg, {
     fitTo: {
