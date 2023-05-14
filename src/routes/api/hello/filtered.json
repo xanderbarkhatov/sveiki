@@ -1,0 +1,917 @@
+[
+  {
+    "language": "English",
+    "greeting": "Hello",
+    "code": "en"
+  },
+  {
+    "language": "Spanish",
+    "greeting": "Hola",
+    "code": "es"
+  },
+  {
+    "language": "French",
+    "greeting": "Bonjour",
+    "code": "fr"
+  },
+  {
+    "language": "German",
+    "greeting": "Hallo",
+    "code": "de"
+  },
+  {
+    "language": "Italian",
+    "greeting": "Ciao",
+    "code": "it"
+  },
+  {
+    "language": "Portuguese",
+    "greeting": "Olá",
+    "code": "pt"
+  },
+  {
+    "language": "Russian",
+    "greeting": "Привет",
+    "code": "ru"
+  },
+  {
+    "language": "Japanese",
+    "greeting": "こんにちは",
+    "code": "ja"
+  },
+  {
+    "language": "Chinese (Simplified)",
+    "greeting": "你好",
+    "code": "zh"
+  },
+  {
+    "language": "Arabic",
+    "greeting": "مرحبا",
+    "code": "ar"
+  },
+  {
+    "language": "Hindi",
+    "greeting": "नमस्ते",
+    "code": "hi"
+  },
+  {
+    "language": "Dutch",
+    "greeting": "Hallo",
+    "code": "nl"
+  },
+  {
+    "language": "Greek",
+    "greeting": "Γεια σας",
+    "code": "el"
+  },
+  {
+    "language": "Swedish",
+    "greeting": "Hej",
+    "code": "sv"
+  },
+  {
+    "language": "Polish",
+    "greeting": "Cześć",
+    "code": "pl"
+  },
+  {
+    "language": "Turkish",
+    "greeting": "Merhaba",
+    "code": "tr"
+  },
+  {
+    "language": "Finnish",
+    "greeting": "Hei",
+    "code": "fi"
+  },
+  {
+    "language": "Czech",
+    "greeting": "Ahoj",
+    "code": "cs"
+  },
+  {
+    "language": "Danish",
+    "greeting": "Hej",
+    "code": "da"
+  },
+  {
+    "language": "Romanian",
+    "greeting": "Bună",
+    "code": "ro"
+  },
+  {
+    "language": "Hungarian",
+    "greeting": "Szia",
+    "code": "hu"
+  },
+  {
+    "language": "Vietnamese",
+    "greeting": "Xin chào",
+    "code": "vi"
+  },
+  {
+    "language": "Korean",
+    "greeting": "안녕하세요",
+    "code": "ko"
+  },
+  {
+    "language": "Hebrew",
+    "greeting": "שלום",
+    "code": "he"
+  },
+  {
+    "language": "Norwegian",
+    "greeting": "Hei",
+    "code": "no"
+  },
+  {
+    "language": "Thai",
+    "greeting": "สวัสดี",
+    "code": "th"
+  },
+  {
+    "language": "Afrikaans",
+    "greeting": "Hallo",
+    "code": "af"
+  },
+  {
+    "language": "Bulgarian",
+    "greeting": "Здравейте",
+    "code": "bg"
+  },
+  {
+    "language": "Swahili",
+    "greeting": "Hujambo",
+    "code": "sw"
+  },
+  {
+    "language": "Zulu",
+    "greeting": "Sawubona",
+    "code": "zu"
+  },
+  {
+    "language": "Filipino",
+    "greeting": "Kamusta",
+    "code": "tl"
+  },
+  {
+    "language": "Indonesian",
+    "greeting": "Halo",
+    "code": "id"
+  },
+  {
+    "language": "Icelandic",
+    "greeting": "Halló",
+    "code": "is"
+  },
+  {
+    "language": "Malay",
+    "greeting": "Helo",
+    "code": "ms"
+  },
+  {
+    "language": "Irish",
+    "greeting": "Dia duit",
+    "code": "ga"
+  },
+  {
+    "language": "Albanian",
+    "greeting": "Përshëndetje",
+    "code": "sq"
+  },
+  {
+    "language": "Amharic",
+    "greeting": "ሰላም",
+    "code": "am"
+  },
+  {
+    "language": "Armenian",
+    "greeting": "Բարեւ",
+    "code": "hy"
+  },
+  {
+    "language": "Basque",
+    "greeting": "Kaixo",
+    "code": "eu"
+  },
+  {
+    "language": "Belarusian",
+    "greeting": "Прывітанне",
+    "code": "be"
+  },
+  {
+    "language": "Bengali",
+    "greeting": "নমস্কার",
+    "code": "bn"
+  },
+  {
+    "language": "Bosnian",
+    "greeting": "Zdravo",
+    "code": "bs"
+  },
+  {
+    "language": "Catalan",
+    "greeting": "Hola",
+    "code": "ca"
+  },
+  {
+    "language": "Chichewa",
+    "greeting": "Moni",
+    "code": "ny"
+  },
+  {
+    "language": "Corsican",
+    "greeting": "Bonghjornu",
+    "code": "co"
+  },
+  {
+    "language": "Croatian",
+    "greeting": "Bok",
+    "code": "hr"
+  },
+  {
+    "language": "Estonian",
+    "greeting": "Tere",
+    "code": "et"
+  },
+  {
+    "language": "Frisian",
+    "greeting": "Hallo",
+    "code": "fy"
+  },
+  {
+    "language": "Galician",
+    "greeting": "Ola",
+    "code": "gl"
+  },
+  {
+    "language": "Georgian",
+    "greeting": "გამარჯობა",
+    "code": "ka"
+  },
+  {
+    "language": "Gujarati",
+    "greeting": "નમસ્તે",
+    "code": "gu"
+  },
+  {
+    "language": "Haitian Creole",
+    "greeting": "Bonjou",
+    "code": "ht"
+  },
+  {
+    "language": "Hausa",
+    "greeting": "Sannu",
+    "code": "ha"
+  },
+  {
+    "language": "Igbo",
+    "greeting": "Ndewo",
+    "code": "ig"
+  },
+  {
+    "language": "Javanese",
+    "greeting": "Halo",
+    "code": "jv"
+  },
+  {
+    "language": "Kannada",
+    "greeting": "ಹಲೋ",
+    "code": "kn"
+  },
+  {
+    "language": "Kazakh",
+    "greeting": "Сәлем",
+    "code": "kk"
+  },
+  {
+    "language": "Khmer",
+    "greeting": "សួស្តី",
+    "code": "km"
+  },
+  {
+    "language": "Kurdish",
+    "greeting": "Silav",
+    "code": "ku"
+  },
+  {
+    "language": "Kyrgyz",
+    "greeting": "Салам",
+    "code": "ky"
+  },
+  {
+    "language": "Lao",
+    "greeting": "ສະບາຍດີ",
+    "code": "lo"
+  },
+  {
+    "language": "Latvian",
+    "greeting": "Sveiki",
+    "code": "lv"
+  },
+  {
+    "language": "Lithuanian",
+    "greeting": "Sveiki",
+    "code": "lt"
+  },
+  {
+    "language": "Luxembourgish",
+    "greeting": "Moien",
+    "code": "lb"
+  },
+  {
+    "language": "Macedonian",
+    "greeting": "Здраво",
+    "code": "mk"
+  },
+  {
+    "language": "Malagasy",
+    "greeting": "Salama",
+    "code": "mg"
+  },
+  {
+    "language": "Maltese",
+    "greeting": "Bongu",
+    "code": "mt"
+  },
+  {
+    "language": "Maori",
+    "greeting": "Kia ora",
+    "code": "mi"
+  },
+  {
+    "language": "Marathi",
+    "greeting": "नमस्कार",
+    "code": "mr"
+  },
+  {
+    "language": "Mongolian",
+    "greeting": "Сайн уу",
+    "code": "mn"
+  },
+  {
+    "language": "Burmese",
+    "greeting": "မင်္ဂလာပါ",
+    "code": "my"
+  },
+  {
+    "language": "Nepali",
+    "greeting": "नमस्ते",
+    "code": "ne"
+  },
+  {
+    "language": "Pashto",
+    "greeting": "سلام",
+    "code": "ps"
+  },
+  {
+    "language": "Punjabi",
+    "greeting": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+    "code": "pa"
+  },
+  {
+    "language": "Sesotho",
+    "greeting": "Dumela",
+    "code": "st"
+  },
+  {
+    "language": "Sinhala",
+    "greeting": "හෙලෝ",
+    "code": "si"
+  },
+  {
+    "language": "Slovak",
+    "greeting": "Ahoj",
+    "code": "sk"
+  },
+  {
+    "language": "Slovenian",
+    "greeting": "Živjo",
+    "code": "sl"
+  },
+  {
+    "language": "Somali",
+    "greeting": "Salaan",
+    "code": "so"
+  },
+  {
+    "language": "Sundanese",
+    "greeting": "Halo",
+    "code": "su"
+  },
+  {
+    "language": "Tajik",
+    "greeting": "Салом",
+    "code": "tg"
+  },
+  {
+    "language": "Tamil",
+    "greeting": "வணக்கம்",
+    "code": "ta"
+  },
+  {
+    "language": "Telugu",
+    "greeting": "హలో",
+    "code": "te"
+  },
+  {
+    "language": "Ukrainian",
+    "greeting": "Привіт",
+    "code": "uk"
+  },
+  {
+    "language": "Urdu",
+    "greeting": "ہیلو",
+    "code": "ur"
+  },
+  {
+    "language": "Uzbek",
+    "greeting": "Salom",
+    "code": "uz"
+  },
+  {
+    "language": "Welsh",
+    "greeting": "Helo",
+    "code": "cy"
+  },
+  {
+    "language": "Xhosa",
+    "greeting": "Molo",
+    "code": "xh"
+  },
+  {
+    "language": "Yiddish",
+    "greeting": "העלא",
+    "code": "yi"
+  },
+  {
+    "language": "Yoruba",
+    "greeting": "Kaabo",
+    "code": "yo"
+  },
+  {
+    "language": "Assamese",
+    "greeting": "নমস্কাৰ",
+    "code": "as"
+  },
+  {
+    "language": "Esperanto",
+    "greeting": "Saluton",
+    "code": "eo"
+  },
+  {
+    "language": "Fijian",
+    "greeting": "Bula",
+    "code": "fj"
+  },
+  {
+    "language": "Greenlandic",
+    "greeting": "Aluu",
+    "code": "kl"
+  },
+  {
+    "language": "Guarani",
+    "greeting": "Mba'éichapa",
+    "code": "gn"
+  },
+  {
+    "language": "Inuktitut",
+    "greeting": "ᐊᔭᙱ",
+    "code": "iu"
+  },
+  {
+    "language": "Luganda",
+    "greeting": "Gyebale ko",
+    "code": "lg"
+  },
+  {
+    "language": "Maldivian",
+    "greeting": "އަސްސަލާމު",
+    "code": "dv"
+  },
+  {
+    "language": "Quechua",
+    "greeting": "Rimaykullayki",
+    "code": "qu"
+  },
+  {
+    "language": "Sámi",
+    "greeting": "Bures",
+    "code": "se"
+  },
+  {
+    "language": "Sardinian",
+    "greeting": "Salude",
+    "code": "sc"
+  },
+  {
+    "language": "Tigrinya",
+    "greeting": "ሰላም",
+    "code": "ti"
+  },
+  {
+    "language": "Tongan",
+    "greeting": "Mālō e lelei",
+    "code": "to"
+  },
+  {
+    "language": "Serbian",
+    "greeting": "Здраво",
+    "code": "sr"
+  },
+  {
+    "language": "Malayalam",
+    "greeting": "ഹലോ",
+    "code": "ml"
+  },
+  {
+    "language": "Turkmen",
+    "greeting": "Salam",
+    "code": "tk"
+  },
+  {
+    "language": "Tatar",
+    "greeting": "Сәлам",
+    "code": "tt"
+  },
+  {
+    "language": "Uighur",
+    "greeting": "ياخشىمۇسىز",
+    "code": "ug"
+  },
+  {
+    "language": "Kashmiri",
+    "greeting": "سَلام",
+    "code": "ks"
+  },
+  {
+    "language": "Sindhi",
+    "greeting": "سَلام",
+    "code": "sd"
+  },
+  {
+    "language": "Odia (Oriya)",
+    "greeting": "ନମସ୍କାର",
+    "code": "or"
+  },
+  {
+    "language": "Abkhaz",
+    "greeting": "Ассаламалейкум",
+    "code": "ab"
+  },
+  {
+    "language": "Afar",
+    "greeting": "Salam",
+    "code": "aa"
+  },
+  {
+    "language": "Akan",
+    "greeting": "Agoo",
+    "code": "ak"
+  },
+  {
+    "language": "Aymara",
+    "greeting": "Kamisaraki",
+    "code": "ay"
+  },
+  {
+    "language": "Azerbaijani",
+    "greeting": "Salam",
+    "code": "az"
+  },
+  {
+    "language": "Bambara",
+    "greeting": "Ani sogoma",
+    "code": "bm"
+  },
+  {
+    "language": "Bashkir",
+    "greeting": "Сәләм",
+    "code": "ba"
+  },
+  {
+    "language": "Bislama",
+    "greeting": "Halo",
+    "code": "bi"
+  },
+  {
+    "language": "Cornish",
+    "greeting": "Dydh da",
+    "code": "kw"
+  },
+  {
+    "language": "Ewe",
+    "greeting": "Miawoezo",
+    "code": "ee"
+  },
+  {
+    "language": "Faroese",
+    "greeting": "Halo",
+    "code": "fo"
+  },
+  {
+    "language": "Fulah",
+    "greeting": "Salaam Alaikum",
+    "code": "ff"
+  },
+  {
+    "language": "Herero",
+    "greeting": "Morokeni",
+    "code": "hz"
+  },
+  {
+    "language": "Hiri Motu",
+    "greeting": "Tugeda",
+    "code": "ho"
+  },
+  {
+    "language": "Ido",
+    "greeting": "Saluto",
+    "code": "io"
+  },
+  {
+    "language": "Inupiaq",
+    "greeting": "Kamkam",
+    "code": "ik"
+  },
+  {
+    "language": "Kanuri",
+    "greeting": "Salama alaikum",
+    "code": "kr"
+  },
+  {
+    "language": "Kikuyu",
+    "greeting": "Wi mwega",
+    "code": "ki"
+  },
+  {
+    "language": "Kinyarwanda",
+    "greeting": "Muraho",
+    "code": "rw"
+  },
+  {
+    "language": "Komi",
+    "greeting": "Салам",
+    "code": "kv"
+  },
+  {
+    "language": "Kongo",
+    "greeting": "Mbote",
+    "code": "kg"
+  },
+  {
+    "language": "Kwanyama",
+    "greeting": "Wa uhala po",
+    "code": "kj"
+  },
+  {
+    "language": "Latin",
+    "greeting": "Salve",
+    "code": "la"
+  },
+  {
+    "language": "Limburgish",
+    "greeting": "Hallo",
+    "code": "li"
+  },
+  {
+    "language": "Lingala",
+    "greeting": "Mbote",
+    "code": "ln"
+  },
+  {
+    "language": "Luba-Katanga",
+    "greeting": "Jambo",
+    "code": "lu"
+  },
+  {
+    "language": "Manx",
+    "greeting": "Moghrey mie",
+    "code": "gv"
+  },
+  {
+    "language": "Marshallese",
+    "greeting": "Yokwe",
+    "code": "mh"
+  },
+  {
+    "language": "Nauru",
+    "greeting": "Hello",
+    "code": "na"
+  },
+  {
+    "language": "Navajo",
+    "greeting": "Ya'at'eeh",
+    "code": "nv"
+  },
+  {
+    "language": "Ndonga",
+    "greeting": "Wa uhala po",
+    "code": "ng"
+  },
+  {
+    "language": "Norwegian Bokmål",
+    "greeting": "Hei",
+    "code": "nb"
+  },
+  {
+    "language": "Norwegian Nynorsk",
+    "greeting": "Hei",
+    "code": "nn"
+  },
+  {
+    "language": "Occitan",
+    "greeting": "Adiu",
+    "code": "oc"
+  },
+  {
+    "language": "Ojibwe",
+    "greeting": "Aaniin",
+    "code": "oj"
+  },
+  {
+    "language": "Oromo",
+    "greeting": "Akkam",
+    "code": "om"
+  },
+  {
+    "language": "Ossetian",
+    "greeting": "Салам",
+    "code": "os"
+  },
+  {
+    "language": "Pali",
+    "greeting": "Namo tassa",
+    "code": "pi"
+  },
+  {
+    "language": "Romansh",
+    "greeting": "Allegra",
+    "code": "rm"
+  },
+  {
+    "language": "Rundi",
+    "greeting": "Amakuru",
+    "code": "rn"
+  },
+  {
+    "language": "Samoan",
+    "greeting": "Talofa",
+    "code": "sm"
+  },
+  {
+    "language": "Sango",
+    "greeting": "Mbi fe",
+    "code": "sg"
+  },
+  {
+    "language": "Sanskrit",
+    "greeting": "नमस्ते",
+    "code": "sa"
+  },
+  {
+    "language": "Shona",
+    "greeting": "Mhoro",
+    "code": "sn"
+  },
+  {
+    "language": "Siswati",
+    "greeting": "Sawubona",
+    "code": "ss"
+  },
+  {
+    "language": "Tahitian",
+    "greeting": "Ia ora na",
+    "code": "ty"
+  },
+  {
+    "language": "Tibetan",
+    "greeting": "བཀྲ་ཤིས་བདེ་ལེགས།",
+    "code": "bo"
+  },
+  {
+    "language": "Tsonga",
+    "greeting": "Avuxeni",
+    "code": "ts"
+  },
+  {
+    "language": "Tswana",
+    "greeting": "Dumela",
+    "code": "tn"
+  },
+  {
+    "language": "Twi",
+    "greeting": "Maakye",
+    "code": "tw"
+  },
+  {
+    "language": "Venda",
+    "greeting": "Ndaa",
+    "code": "ve"
+  },
+  {
+    "language": "Volapük",
+    "greeting": "Glidis",
+    "code": "vo"
+  },
+  {
+    "language": "Walloon",
+    "greeting": "Bondjoû",
+    "code": "wa"
+  },
+  {
+    "language": "Wolof",
+    "greeting": "Salam",
+    "code": "wo"
+  },
+  {
+    "language": "Zhuang",
+    "greeting": "Nihao",
+    "code": "za"
+  },
+  {
+    "language": "Aragonese",
+    "greeting": "Hola",
+    "code": "an"
+  },
+  {
+    "language": "Avaric",
+    "greeting": "Салам",
+    "code": "av"
+  },
+  {
+    "language": "Avestan",
+    "greeting": "Hello",
+    "code": "ae"
+  },
+  {
+    "language": "Breton",
+    "greeting": "Demat",
+    "code": "br"
+  },
+  {
+    "language": "Chamorro",
+    "greeting": "Håfa ådai",
+    "code": "ch"
+  },
+  {
+    "language": "Chechen",
+    "greeting": "Салам",
+    "code": "ce"
+  },
+  {
+    "language": "Church Slavic",
+    "greeting": "Здравствуйте",
+    "code": "cu"
+  },
+  {
+    "language": "Chuvash",
+    "greeting": "Салам",
+    "code": "cv"
+  },
+  {
+    "language": "Cree",
+    "greeting": "Tansi",
+    "code": "cr"
+  },
+  {
+    "language": "Dzongkha",
+    "greeting": "ཁམས་བཟང།",
+    "code": "dz"
+  },
+  {
+    "language": "Scottish Gaelic",
+    "greeting": "Hàlo",
+    "code": "gd"
+  },
+  {
+    "language": "Interlingua",
+    "greeting": "Salute",
+    "code": "ia"
+  },
+  {
+    "language": "Interlingue",
+    "greeting": "Hallo",
+    "code": "ie"
+  },
+  {
+    "language": "North Ndebele",
+    "greeting": "Salibonani",
+    "code": "nd"
+  },
+  {
+    "language": "South Ndebele",
+    "greeting": "Lotjhani",
+    "code": "nr"
+  },
+  {
+    "language": "Sichuan Yi",
+    "greeting": "ꆈꌠꉙ",
+    "code": "ii"
+  },
+  {
+    "language": "Persian",
+    "greeting": "سلام",
+    "code": "fa"
+  }
+]
