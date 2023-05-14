@@ -1,11 +1,21 @@
 <script lang="ts">
-import type { PageData } from "./$types"
+import type { PageData } from "./$types";
 
-export let data: PageData
+export let data: PageData;
+
+const greeting = `${data.greeting} 👋`;
 </script>
 
+<svelte:head>
+  <title>{greeting}</title>
+  <meta name="og:title" content={greeting} />
+  <meta name="twitter:title" content={greeting} />
+  <!-- <meta name="og:image" content={data.image} /> -->
+  <!-- <meta name="twitter:image" content={data.image} /> -->
+</svelte:head>
+
 <main>
-  <h1>{data.greeting} 👋</h1>
+  <h1>{greeting}</h1>
 </main>
 
 <style>
