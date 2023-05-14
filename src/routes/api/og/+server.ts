@@ -1,7 +1,11 @@
 import satori from "satori";
-import { Resvg } from "@resvg/resvg-js";
+import { initWasm, Resvg } from "@resvg/resvg-wasm";
 import { error } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
+
+await initWasm(
+  await fetch("https://unpkg.com/@resvg/resvg-wasm/index_bg.wasm").then((r) => r.arrayBuffer())
+);
 
 export const GET: RequestHandler = async ({ url }) => {
   const text = url.searchParams.get("text");

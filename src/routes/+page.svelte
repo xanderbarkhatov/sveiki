@@ -10,7 +10,7 @@ const greeting = `${data.greeting} 👋`;
   <title>{greeting}</title>
   <meta property="og:title" content={greeting} />
   <meta property="og:description" content={data.language} />
-  <meta property="og:image" content={"https://sveiki.vercel.app/api/og?text=" + greeting} />
+  <meta property="og:image" content={"http://localhost:5173/api/og?text=" + greeting} />
 </svelte:head>
 
 <main>
