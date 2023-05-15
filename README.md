@@ -1,6 +1,6 @@
 # Sveiki 👋
 
-This API allows you to get an equivalent of "Hello" in different languages.
+Get an equivalent of "Hello" in different languages.
 
 Why? Who knows 🤷‍♂️
 
