@@ -1,38 +1,33 @@
-# create-svelte
+# Greeting API
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This API allows you to get an equivalent of "Hello" in different languages
 
-## Creating a project
+## Features
+- 183 languages
+- Defaults to "Hello"
+- ISO 639-1 language codes 
+- Detect a language based on `accept-language` header
+- Should be quite fast, thanks to Vercel's Edge Network and caching
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Getting Started
+To get a greeting, make a GET request to the [https://sveiki.vercel.app/api/hello](https://sveiki.vercel.app/api/hello) endpoint with the desired language code
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Example:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+curl https://sveiki.vercel.app/api/hello?code=lt
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
+This will return a greeting in Lithuanian:
+```json
+{
+  "greeting": "Sveiki",
+  "language": "Lithuanian",
+  "code": "lt"
+}
 ```
+If `code` is omitted, `accept-language` header will be used instead
 
-You can preview the production build with `npm run preview`.
+Will default to "Hello" if greeting is not found
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Available Languages
+Refer to the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language codes for a full list of supported languages.
