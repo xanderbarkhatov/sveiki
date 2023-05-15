@@ -2,19 +2,17 @@
 import type { PageData } from "./$types";
 
 export let data: PageData;
-
-const greeting = `${data.greeting} 👋`;
 </script>
 
 <svelte:head>
-  <title>{greeting}</title>
-  <meta name="description" content={data.language} />
-  <meta property="og:title" content={greeting} />
-  <meta property="og:description" content={data.language} />
+  <title>Sveiki 👋</title>
+  <meta name="description" content={'Get an equivalent of "Hello" in different languages'} />
+  <meta property="og:title" content="Sveiki 👋" />
+  <meta property="og:description" content={'Get an equivalent of "Hello" in different languages'} />
 </svelte:head>
 
 <main>
-  <h1>{greeting}</h1>
+  <h1>{data.greeting} 👋</h1>
 </main>
 
 <style>
