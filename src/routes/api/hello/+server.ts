@@ -1,12 +1,14 @@
 import { json } from "@sveltejs/kit";
-import type { RequestHandler } from "./$types";
 import greetings from "./greetings.json";
+import type { RequestHandler } from "./$types";
 
 export const GET: RequestHandler = ({ url, request }) => {
-  const code =
-    url.searchParams.get("code") ?? request.headers.get("accept-language")?.slice(0, 2) ?? "en";
+  const code = url.searchParams.get("code") ?? request.headers.get("accept-language")?.slice(0, 2);
+  const lang = greetings[code as keyof typeof greetings] ?? greetings.en;
 
-  const lang = greetings[code as keyof typeof greetings];
-
-  return json(lang);
+  return json(lang, {
+    headers: {
+      "Cache-Control": "s-maxage=2592000",
+    },
+  });
 };
