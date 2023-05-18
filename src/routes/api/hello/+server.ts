@@ -3,12 +3,14 @@ import greetings from "./greetings.json";
 import type { RequestHandler } from "./$types";
 
 export const GET: RequestHandler = ({ url, request }) => {
-  const code = url.searchParams.get("code") ?? request.headers.get("accept-language")?.slice(0, 2);
-  const lang = greetings[code as keyof typeof greetings] ?? greetings.en;
+  const codeFromQuery = url.searchParams.get("code");
+  const codeFromHeader = request.headers.get("accept-language")?.slice(0, 2);
+  const code = (codeFromQuery ?? codeFromHeader) as keyof typeof greetings;
+  const lang = greetings[code] ?? greetings.en;
 
   return json(lang, {
     headers: {
-      "Cache-Control": "s-maxage=2592000",
+      "Cache-Control": codeFromQuery ? "s-maxage=2592000" : "s-maxage=0",
     },
   });
 };
