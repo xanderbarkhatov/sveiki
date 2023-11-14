@@ -9,7 +9,6 @@ Why? Who knows 🤷‍♂️
 - 👋 Defaults to "Hello"
 - 📒 ISO 639-1 language codes 
 - 🔎 Can use a code from `accept-language` header
-- ⚡️ Should be quite fast, thanks to Vercel's Edge Network and caching
 
 ## Getting Started
 Make a GET request to the [sveiki.vercel.app/api/hello](https://sveiki.vercel.app/api/hello) endpoint with the desired language code
