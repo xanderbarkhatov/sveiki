@@ -6,9 +6,8 @@ Why? Who knows 🤷‍♂️
 
 ## Features
 - 🌍 183 languages
-- 👋 Defaults to "Hello"
 - 📒 ISO 639-1 language codes 
-- 🔎 Can use a code from `accept-language` header
+- 🔎 Can detect a language from `accept-language` header
 
 ## Getting Started
 Make a GET request to the [sveiki.vercel.app/api/hello](https://sveiki.vercel.app/api/hello) endpoint with the desired language code
